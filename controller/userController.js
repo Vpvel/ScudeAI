@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const Usernew = require('../models/userSchema');
+const Usernew = require('../models/UserSchema ');
 const nodemailer = require("nodemailer"); // ✅ Import nodemailer
 const axios = require("axios");
 const OTP_STORE = {}; 
