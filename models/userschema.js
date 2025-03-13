@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const UserSchema = mongoose.Schema({
+const userschema = mongoose.Schema({
     phone:{
         type: String,
         required: [true, 'Please enter proper phone'],
@@ -26,4 +26,4 @@ const UserSchema = mongoose.Schema({
     
 });
 
-module.exports = mongoose.model('users', UserSchema);
+module.exports = mongoose.model('users', userschema);
